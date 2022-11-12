@@ -1,0 +1,58 @@
+.header-box {
+    height: 10vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.button-login {
+    height: 50%;
+    margin: 14px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.user-box {
+    display: flex;
+}
+
+.siderbar {
+    border: 1px solid grey;
+    width: 25%;
+    height: 90vh;
+}
+
+.message-box {
+    border: 1px solid grey;
+    width: 75%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-list{
+    height: 90%;
+}
+
+
+.message-writing-box{
+    border: 1px solid grey;
+    height: 10%;
+    display: flex;
+
+}
+
+.input{
+    width: 80%;
+}
+.submit-button{
+    width: 20%;
+}
+
+.user-box{
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
