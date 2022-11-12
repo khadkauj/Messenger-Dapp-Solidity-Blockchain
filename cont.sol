@@ -45,7 +45,7 @@ contract Mess {
         uint counter = 0;
         for(uint i = 0; i < messageList.length; i++){
             if((messageList[i].sender == msg.sender && messageList[i].receiver == receiver) ||
-             (messageList[i].receiver == msg.sender && messageList[i].receiver == msg.sender) ){
+             (messageList[i].receiver == msg.sender && messageList[i].sender == receiver) ){
                  temporary[counter] = messageList[i];
                  counter++;
              }
